@@ -1,0 +1,8 @@
+fn main() {
+	// This is line comment
+	/* This is multi
+		line
+		comment */
+	let x = 5 + /* is this possible in python? why? */ 5;
+	println!("x is {}", x);
+}
